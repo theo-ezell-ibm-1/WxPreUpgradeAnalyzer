@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">WxPreUpgradeAnalyzer.util</value>
+  <value name="is_public">false</value>
+  <value name="shared">c3RhdGljIFN0cmluZ1tdIHNwbGl0U3RyaW5nKFN0cmluZyBzKXsKCUFycmF5TGlzdDxTdHJpbmc+
+IHN0ckxpc3QgPSBuZXcgQXJyYXlMaXN0PFN0cmluZz4oKTsKCVN0cmluZyBzdWIgPSBuZXcgU3Ry
+aW5nKCk7CglpbnQgc3RhcnQgPSAwOwoJaW50IGVuZCA9IDA7CglpbnQgY291bnQgPSAwOwoJd2hp
+bGUoc3RhcnQgPiAtMSl7Ci8vCQkJc3RhcnQgPSBzLmluZGV4T2YoIn5+cHViLiIpOwoJCWVuZCA9
+IGluZGV4T2ZCeVJlZ2V4KCJ+fnB1YlxcLlteXFxzXStcXHMiLCBzKTsKCQlpZiAoZW5kIDwgMCl7
+CgkJCXN1YiA9IHMuc3Vic3RyaW5nKHN0YXJ0KTsKCQkJYnJlYWs7CgkJfSBlbHNlIHsKCQkJc3Vi
+ID0gcy5zdWJzdHJpbmcoc3RhcnQsIGVuZCk7CgkJfQoJCXN0ckxpc3QuYWRkKHN1Yik7CgkJcyA9
+IHMucmVwbGFjZUZpcnN0KHN1YiwgIiIpOwoJCWlmIChjb3VudCsrPjEwKXsKCQkJYnJlYWs7CgkJ
+fQoJfQoJcmV0dXJuIHN0ckxpc3QudG9BcnJheShuZXcgU3RyaW5nWzBdKTsKfQoKcHVibGljIHN0
+YXRpYyBpbnQgaW5kZXhPZkJ5UmVnZXgoU3RyaW5nIHBhdHRlcm4sIFN0cmluZyB0ZXh0KSB7CglQ
+YXR0ZXJuIHAgPSBQYXR0ZXJuLmNvbXBpbGUocGF0dGVybik7CiAgICBNYXRjaGVyIG0gPSBwLm1h
+dGNoZXIodGV4dCk7CiAgICBpZiAoIG0uZmluZCgpICkgewogICAgICAgIHJldHVybiBtLnN0YXJ0
+KCk7IAogICAgfQogICAgcmV0dXJuIC0xOwp9</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.lang.ns.NSNode</value>
+    <value>java.io.File</value>
+    <value>java.io.ObjectInputStream</value>
+    <value>java.nio.file.Path</value>
+    <value>java.nio.file.Paths</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.Arrays</value>
+    <value>java.util.List</value>
+    <value>java.util.regex.Matcher</value>
+    <value>java.util.regex.Pattern</value>
+  </array>
+</Values>
