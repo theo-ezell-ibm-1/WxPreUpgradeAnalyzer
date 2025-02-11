@@ -620,7 +620,7 @@
 			"nodeName": "wm.tn.access:getSigningKeys",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.security:getSigningKeyAndChain"
 		},
@@ -628,7 +628,7 @@
 			"nodeName": "wm.tn.access:removePartnerCertificate",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -636,7 +636,7 @@
 			"nodeName": "wm.tn.access:setPartnerCertificate",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "Use wm.tn.security:addCertificateData or wm.tn.security:updateCertificateData."
 		},
@@ -644,7 +644,7 @@
 			"nodeName": "wm.tn.access:setSigningKeys",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "Use wm.tn.security:addCertificateData or wm.tn.security:updateCertificateData."
 		},
@@ -652,7 +652,7 @@
 			"nodeName": "wm.tn.delivery:getAnyDelivery",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.task:getAnyTask"
 		},
@@ -660,7 +660,7 @@
 			"nodeName": "wm.tn.delivery:getDelivery",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.task:getTask"
 		},
@@ -668,7 +668,7 @@
 			"nodeName": "wm.tn.delivery:getDeliveryOutput",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.task:getTaskOutput"
 		},
@@ -676,7 +676,7 @@
 			"nodeName": "wm.tn.delivery:getDeliveryStatus",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.task:getTaskStatus"
 		},
@@ -684,7 +684,7 @@
 			"nodeName": "wm.tn.delivery:removeDelivery",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.task:removeTask"
 		},
@@ -692,7 +692,7 @@
 			"nodeName": "wm.tn.delivery:restartDelivery",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.task:restartTask"
 		},
@@ -700,7 +700,7 @@
 			"nodeName": "wm.tn.profile:getContactTypes",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.dictionary:getContactTypes"
 		},
@@ -708,7 +708,7 @@
 			"nodeName": "wm.tn.profile:getExtendedFieldTemplate",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.profile.create:newExtendedFields"
 		},
@@ -716,7 +716,7 @@
 			"nodeName": "wm.tn.profile:getIDTypes",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "wm.tn.dictionary:getIDTypes"
 		},
@@ -724,7 +724,7 @@
 			"nodeName": "wm.tn.security:getDecryptCACertificates",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -732,7 +732,7 @@
 			"nodeName": "wm.tn.security:getDecryptCertificate",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -740,7 +740,7 @@
 			"nodeName": "wm.tn.security:getDecryptKey",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -748,7 +748,7 @@
 			"nodeName": "wm.tn.security:getEncryptCACertificates",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -756,7 +756,7 @@
 			"nodeName": "wm.tn.security:getEncryptCertificate",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -764,7 +764,7 @@
 			"nodeName": "wm.tn.security:getEncryptKey",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -772,7 +772,7 @@
 			"nodeName": "wm.tn.security:getSignCACertificates",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -780,7 +780,7 @@
 			"nodeName": "wm.tn.security:getSignCertificate",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -788,7 +788,7 @@
 			"nodeName": "wm.tn.security:getSignKey",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -796,7 +796,7 @@
 			"nodeName": "wm.tn.security:getVerifyCACertificates",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -804,7 +804,7 @@
 			"nodeName": "wm.tn.security:getVerifyCertificate",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -812,7 +812,7 @@
 			"nodeName": "wm.tn.security:setDecryptCertificateSet",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -820,7 +820,7 @@
 			"nodeName": "wm.tn.security:setEncryptCertificateSet",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -828,7 +828,7 @@
 			"nodeName": "wm.tn.security:setSignCertificateSet",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -836,7 +836,7 @@
 			"nodeName": "wm.tn.security:setVerifyCertificateSet",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
 		},
@@ -844,7 +844,7 @@
 			"nodeName": "wm.tn.profile:getUserProfile",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -852,7 +852,7 @@
 			"nodeName": "wm.tn.profile:getUserProfileSummary",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": "WmPublic",
+			"package": "WmTN",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2096,7 +2096,6 @@
 			"nodeName": "wm.tn.access:userList",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
 			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
@@ -2105,7 +2104,6 @@
 			"nodeName": "wm.tn.access:getUserListByGroup",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
 			"package": "WmTN",
 			"version": "6.5",
 			"replacement": "None"
@@ -2114,23 +2112,23 @@
 			"nodeName": "wm.tn.doc:isRoutable",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmTN",
 			"version": "6.5",
-			"replacement": "empower.softwareag,com"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.tn.profile:getBinaryTypes",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmTN",
 			"version": "6.5",
-			"replacement": "empower.softwareag,com"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "pub.event.WinException:eventLog",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmPublic",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2138,7 +2136,7 @@
 			"nodeName": "win32.COM.dispatch:createObject",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmWin32",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2146,7 +2144,7 @@
 			"nodeName": "win32.COM.dispatch:invoke",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmWin32",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2154,7 +2152,7 @@
 			"nodeName": "win32.COM.dispatch:release",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmWin32",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2162,7 +2160,7 @@
 			"nodeName": "win32.COM:invoke",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmWin32",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2170,7 +2168,7 @@
 			"nodeName": "win32.COM:invokeLate",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmWin32",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2178,7 +2176,7 @@
 			"nodeName": "win32.COM:shutdown",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmWin32",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2186,7 +2184,7 @@
 			"nodeName": "win32.ntlm:reg",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmWin32",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2194,7 +2192,7 @@
 			"nodeName": "win32.ntlm:unreg",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmWin32",
 			"version": "7.1",
 			"replacement": "None"
 		},
@@ -2234,7 +2232,7 @@
 			"nodeName": "wm.b2b.edi.templateMgr:getTemplate",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmEDI",
 			"version": "7.1.2",
 			"replacement": "None"
 		},
@@ -2250,73 +2248,25 @@
 			"nodeName": "omi.wm.is",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmOmiIS",
 			"version": "8.0",
-			"replacement": "Software AG R&D documentation"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "omi.wm.tn",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmOmiTN",
 			"version": "8.0",
-			"replacement": "Software AG R&D documentation"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "sample.uddi",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmUDDI",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
-		},
-		{
-			"nodeName": "wm.administrator",
-			"nodeType": "service",
-			"svcType": "java",
-			"package": " ",
-			"version": "8.0",
-			"replacement": "Software AG R&D"
-		},
-		{
-			"nodeName": "wm.administratorResource",
-			"nodeType": "service",
-			"svcType": "java",
-			"package": " ",
-			"version": "8.0",
-			"replacement": "Software AG R&D"
-		},
-		{
-			"nodeName": "wm.broker.admin",
-			"nodeType": "service",
-			"svcType": "java",
-			"package": " ",
-			"version": "8.0",
-			"replacement": "Software AG R&D"
-		},
-		{
-			"nodeName": "wm.comauth",
-			"nodeType": "service",
-			"svcType": "java",
-			"package": " ",
-			"version": "8.0",
-			"replacement": "Software AG R&D"
-		},
-		{
-			"nodeName": "wm.FtpToJes",
-			"nodeType": "service",
-			"svcType": "java",
-			"package": " ",
-			"version": "8.0",
-			"replacement": "Software AG R&D"
-		},
-		{
-			"nodeName": "wm.InitialValidityTest",
-			"nodeType": "service",
-			"svcType": "java",
-			"package": " ",
-			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.archive",
@@ -2324,7 +2274,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.cm",
@@ -2332,7 +2282,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.papinet",
@@ -2340,7 +2290,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.papinet:V1",
@@ -2348,7 +2298,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.papinet:V2",
@@ -2356,7 +2306,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.papinet.sample",
@@ -2364,7 +2314,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.profile",
@@ -2372,7 +2322,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.rec",
@@ -2380,7 +2330,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.trp",
@@ -2388,7 +2338,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.tspace",
@@ -2396,7 +2346,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ip.util",
@@ -2404,7 +2354,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.ism.agent",
@@ -2412,7 +2362,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.Mainframe",
@@ -2420,7 +2370,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.MainframeSampleServices",
@@ -2428,7 +2378,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.modeler",
@@ -2436,7 +2386,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "wm.tnweb",
@@ -2444,7 +2394,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "WmxCBL",
@@ -2452,7 +2402,7 @@
 			"svcType": "java",
 			"package": " ",
 			"version": "8.0",
-			"replacement": "Software AG R&D"
+			"replacement": "None"
 		},
 		{
 			"nodeName": "pub.prt.assign:literalObjectToVariable",
@@ -2522,7 +2472,7 @@
 			"nodeName": "pub.pki.pkcs7:verify",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmPKI",
 			"version": "9.7",
 			"replacement": "pub.security.pkcs7:verify"
 		},
@@ -2530,7 +2480,7 @@
 			"nodeName": "pub.pki.smime.createSignedAndEncryptedData ",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmPKI",
 			"version": "9.7",
 			"replacement": "pub.smime.keystore:createSignedAndEncryptedData"
 		},
@@ -2538,7 +2488,7 @@
 			"nodeName": "pub.pki.smime.createSignedData ",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmPKI",
 			"version": "9.7",
 			"replacement": "pub.smime.keystore:createSignedData"
 		},
@@ -2546,7 +2496,7 @@
 			"nodeName": "pub.pki.smime:processEncryptedData",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmPKI",
 			"version": "9.7",
 			"replacement": "pub.smime.keystore:processEncryptedData"
 		},
@@ -2554,7 +2504,7 @@
 			"nodeName": "pub.pki.smime:processSignedData ",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmPKI",
 			"version": "9.7",
 			"replacement": "pub.smime:processSignedData"
 		},
@@ -2562,7 +2512,7 @@
 			"nodeName": "wm.mft.admin:property",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmPKI",
 			"version": "9.8",
 			"replacement": "None"
 		},
@@ -2570,7 +2520,7 @@
 			"nodeName": "pub.pki.pkcs7:sign",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmPKI",
 			"version": "9.7",
 			"replacement": "pub.security.keystore.pkcs7:sign"
 		},
@@ -2578,7 +2528,7 @@
 			"nodeName": "com.softwareag.eda.jndi",
 			"nodeType": "service",
 			"svcType": "java",
-			"package": " ",
+			"package": "WmPKI",
 			"version": "9.8",
 			"replacement": "Use Digital Event Services."
 		},
@@ -2709,6 +2659,57 @@
 			"package": " ",
 			"version": "9.9",
 			"replacement": "pub.event.routing:unsubscribe"
-		}
+		},
+		{
+			"nodeName": "pub.client.oauth:executeRequest",
+			"nodeType": "service",
+			"svcType": "java",
+			"package": " ",
+			"version": "11.1",
+			"replacement": "Use pub.client:http, setting auth/type = Bearer and auth/token to the client access token."
+		},
+		{
+			"nodeName": "pub.flow:setResponse",
+			"nodeType": "service",
+			"svcType": "java",
+			"package": "WmPublic",
+			"version": "11.1",
+			"replacement": "pub.flow:setHTTPResponse"
+		},		{
+			"nodeName": "pub.flow:setResponse2",
+			"nodeType": "service",
+			"svcType": "java",
+			"package": "WmPublic",
+			"version": "11.1",
+			"replacement": "pub.flow:setHTTPResponse"
+		},		{
+			"nodeName": "pub.flow:setResponseCode",
+			"nodeType": "service",
+			"svcType": "java",
+			"package": "WmPublic",
+			"version": "11.1",
+			"replacement": "pub.flow:setHTTPResponse"
+		},		{
+			"nodeName": "pub.flow:setResponseHeader",
+			"nodeType": "service",
+			"svcType": "java",
+			"package": "WmPublic",
+			"version": "11.1",
+			"replacement": "pub.flow:setHTTPResponse"
+		},		{
+			"nodeName": "pub.flow:setReponseHeaders",
+			"nodeType": "service",
+			"svcType": "java",
+			"package": "WmPublic",
+			"version": "11.1",
+			"replacement": "pub.flow:setHTTPResponse"
+		},		{
+			"nodeName": "pub.json:documentToJSONString",
+			"nodeType": "service",
+			"svcType": "java",
+			"package": "WmPublic",
+			"version": "11.1",
+			"replacement": "pub.json:documentToJSON"
+		},
 	]
 }
