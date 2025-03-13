@@ -2675,41 +2675,46 @@
 			"package": "WmPublic",
 			"version": "11.1",
 			"replacement": "pub.flow:setHTTPResponse"
-		},		{
+		},
+		{
 			"nodeName": "pub.flow:setResponse2",
 			"nodeType": "service",
 			"svcType": "java",
 			"package": "WmPublic",
 			"version": "11.1",
 			"replacement": "pub.flow:setHTTPResponse"
-		},		{
+		},
+		{
 			"nodeName": "pub.flow:setResponseCode",
 			"nodeType": "service",
 			"svcType": "java",
 			"package": "WmPublic",
 			"version": "11.1",
 			"replacement": "pub.flow:setHTTPResponse"
-		},		{
+		},
+		{
 			"nodeName": "pub.flow:setResponseHeader",
 			"nodeType": "service",
 			"svcType": "java",
 			"package": "WmPublic",
 			"version": "11.1",
 			"replacement": "pub.flow:setHTTPResponse"
-		},		{
+		},
+		{
 			"nodeName": "pub.flow:setReponseHeaders",
 			"nodeType": "service",
 			"svcType": "java",
 			"package": "WmPublic",
 			"version": "11.1",
 			"replacement": "pub.flow:setHTTPResponse"
-		},		{
+		},
+		{
 			"nodeName": "pub.json:documentToJSONString",
 			"nodeType": "service",
 			"svcType": "java",
 			"package": "WmPublic",
 			"version": "11.1",
 			"replacement": "pub.json:documentToJSON"
-		},
+		}
 	]
 }
