@@ -108,6 +108,7 @@ public final class util
 		IDataCursor pc = pipeline.getCursor();
 		String version = IDataUtil.getString(pc, "version");
 		String versionToCheck = IDataUtil.getString(pc, "versionToCheck");
+		version = version.replace(".0.0","");
 		if(version.equalsIgnoreCase(versionToCheck)){
 			isSameOrHigherVersion = "true";
 		} else {
