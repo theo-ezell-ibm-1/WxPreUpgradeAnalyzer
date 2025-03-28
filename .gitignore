@@ -1,2 +1,2 @@
 /bin/
-/pub/reports/*.xslx
+pub/reports/*.xlsx
