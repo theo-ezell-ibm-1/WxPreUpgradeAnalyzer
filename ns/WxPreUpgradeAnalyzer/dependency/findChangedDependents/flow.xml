@@ -1966,6 +1966,9 @@
 
 <MAPCOPY FROM="/changedAssetList;4;0;WxPreUpgradeAnalyzer.util.doc:changedService/comment;1;0" TO="/dependentReferences;4;0;WxPreUpgradeAnalyzer.report.doc:dependentReferenceReport/Comment;1;0">
 </MAPCOPY>
+
+<MAPCOPY FROM="/changedAssetList;4;0;WxPreUpgradeAnalyzer.util.doc:changedService/version;1;0" TO="/dependentReferences;4;0;WxPreUpgradeAnalyzer.report.doc:dependentReferenceReport/Version;1;0">
+</MAPCOPY>
 </MAP>
 
 <INVOKE TIMEOUT="" SERVICE="pub.list:addItemToVector" VALIDATE-IN="$none" VALIDATE-OUT="$none">

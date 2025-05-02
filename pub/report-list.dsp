@@ -34,7 +34,7 @@
 						<table class="tableView" cellpadding="2"> 
 							<tbody>
 								<tr>
-									<td class="heading" colspan="2">WxPreUpgradeAnalyzer Reports</td>
+									<td class="heading" colspan="2">WxPreUpgradeAnalyzer Reports &nbsp;</td>
 									%invoke WxPreUpgradeAnalyzer.ui:listReports%
 									%ifvar numFiles equals('0')%
 									<tr>

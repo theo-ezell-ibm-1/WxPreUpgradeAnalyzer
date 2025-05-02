@@ -604,7 +604,7 @@
 
   <!-- nodes -->
 
-<EXIT NAME="%changeIsOK%!=&#34;true&#34; || %nodeExists% != &#34;true&#34; || %serverVersionIsOK%!=&#34;true&#34;" FROM="$iteration" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
+<EXIT NAME="%changeIsOK%!=&#34;true&#34; || %nodeExists% != &#34;true&#34;" FROM="$iteration" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
   <COMMENT></COMMENT>
 </EXIT>
 </BRANCH>

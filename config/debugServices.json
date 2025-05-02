@@ -1,0 +1,19 @@
+{
+	"debugServices": [
+		{
+			"nodeName": "pub.flow:debugLog"
+		},
+		{
+			"nodeName": "pub.flow:savePipeline"
+		},
+		{
+			"nodeName": "pub.flow:restorePipeline"
+		},
+		{
+			"nodeName": "pub.flow:savePipelineToFile"
+		},
+		{
+			"nodeName": "pub.flow:restorePipelineFromFile"
+		}
+	]
+}

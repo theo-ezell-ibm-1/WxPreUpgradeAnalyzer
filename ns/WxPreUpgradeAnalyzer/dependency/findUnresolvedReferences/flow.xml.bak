@@ -146,6 +146,10 @@
 </MAPSET>
 </MAP>
 
+<INVOKE TIMEOUT="" SERVICE="pub.flow:tracePipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
+
 <INVOKE TIMEOUT="" SERVICE="pub.flow:debugLog" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
@@ -2068,7 +2072,7 @@
         <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -2294,7 +2298,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -2465,7 +2469,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -2495,9 +2499,6 @@
   <!-- nodes -->
 
 <MAPCOPY FROM="/referencedAssetFilter;1;0" TO="/regex;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/unresolvedReferences;4;0;WxAnalyzer.report.doc:unresolvedReferenceReport/referencedAsset;1;0" TO="/inString;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -2785,7 +2786,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -2809,7 +2810,7 @@
 <MAPCOPY FROM="/missingReferenceVector;3;0" TO="/vector;3;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/unresolvedReferences;4;0;WxAnalyzer.report.doc:unresolvedReferenceReport" TO="/item;3;0">
+<MAPCOPY FROM="/unresolvedReferences;4;0;WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport" TO="/item;3;0">
 </MAPCOPY>
 </MAP>
 
@@ -3022,7 +3023,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -3457,7 +3458,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -3770,7 +3771,7 @@
         <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -3794,7 +3795,7 @@
 <MAPCOPY FROM="/missingReferenceVector;3;0" TO="/vector;3;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/unresolvedReferences;4;1;WxAnalyzer.report.doc:unresolvedReferenceReport" TO="/itemList;3;1">
+<MAPCOPY FROM="/unresolvedReferences;4;1;WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport" TO="/itemList;3;1">
 </MAPCOPY>
 </MAP>
 
@@ -4009,7 +4010,7 @@
         <value name="is_soap_array_encoding_used">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -4055,7 +4056,7 @@
 <MAPDELETE FIELD="/vector;3;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/unresolvedReferences;4;1;WxAnalyzer.report.doc:unresolvedReferenceReport">
+<MAPDELETE FIELD="/unresolvedReferences;4;1;WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport">
 </MAPDELETE>
 
 <MAPDELETE FIELD="/itemList;3;1">
@@ -4373,7 +4374,7 @@
         <value name="is_global">false</value>
         <value name="is_soap_array_encoding_used">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -4478,7 +4479,7 @@
 <MAPDELETE FIELD="/level;1;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/unresolvedReferences;4;1;WxAnalyzer.report.doc:unresolvedReferenceReport">
+<MAPDELETE FIELD="/unresolvedReferences;4;1;WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport">
 </MAPDELETE>
 </MAP>
 </INVOKE>
@@ -5516,7 +5517,7 @@
         <value name="is_global">false</value>
         <value name="is_soap_array_encoding_used">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -5670,7 +5671,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/array;3;1" TO="/unresolvedReferenceReport;4;1;WxAnalyzer.report.doc:unresolvedReferenceReport">
+<MAPCOPY FROM="/array;3;1" TO="/unresolvedReferenceReport;4;1;WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport">
 </MAPCOPY>
 
 <MAPDELETE FIELD="/array;3;1">
@@ -5757,7 +5758,7 @@
         <value name="is_global">false</value>
         <value name="is_soap_array_encoding_used">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -5946,7 +5947,7 @@
         <value name="is_global">false</value>
         <value name="is_soap_array_encoding_used">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -6065,7 +6066,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/unresolvedReferenceReport;4;1;WxAnalyzer.report.doc:unresolvedReferenceReport" TO="/fromList;3;1">
+<MAPCOPY FROM="/unresolvedReferenceReport;4;1;WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport" TO="/fromList;3;1">
 </MAPCOPY>
 </MAP>
 
@@ -6347,7 +6348,7 @@
         <value name="is_global">false</value>
         <value name="is_soap_array_encoding_used">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -6525,7 +6526,7 @@
         <value name="is_global">false</value>
         <value name="is_soap_array_encoding_used">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -6641,7 +6642,7 @@
         <value name="is_global">false</value>
         <value name="is_soap_array_encoding_used">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">WxAnalyzer.report.doc:unresolvedReferenceReport</value>
+        <value name="rec_ref">WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>

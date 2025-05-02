@@ -15701,6 +15701,7 @@
   <array name="xml" type="value" depth="1">
     <value>fileName</value>
     <value>reportName</value>
+    <value>lastError</value>
   </array>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>

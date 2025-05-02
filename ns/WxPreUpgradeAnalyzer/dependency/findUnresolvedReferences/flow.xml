@@ -146,6 +146,10 @@
 </MAPSET>
 </MAP>
 
+<INVOKE TIMEOUT="" SERVICE="pub.flow:tracePipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
+
 <INVOKE TIMEOUT="" SERVICE="pub.flow:debugLog" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
@@ -2497,7 +2501,7 @@
 <MAPCOPY FROM="/referencedAssetFilter;1;0" TO="/regex;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/unresolvedReferences;4;0;WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport/referencedAsset;1;0" TO="/inString;1;0">
+<MAPCOPY FROM="/unresolvedReferences;4;0;WxPreUpgradeAnalyzer.report.doc:unresolvedReferenceReport/Referenced Asset;1;0" TO="/inString;1;0">
 </MAPCOPY>
 </MAP>
 

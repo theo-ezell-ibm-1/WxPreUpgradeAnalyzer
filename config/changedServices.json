@@ -1512,6 +1512,22 @@
 			"version": "8.2",
 			"comment": "Added useNamespacesOfDocumentType as new input parameter."
 		},
+				{
+			"nodeName": "wm.tn.delivery:deliver",
+			"nodeType": "service",
+			"svcType": "java",
+			"package": "WmTN",
+			"version": "7.1",
+			"comment": "Output parameter deliveryID is deprecated. Use taskId instead."
+		},
+		{
+			"nodeName": "pub.monitor.archive:setOperationParameters",
+			"nodeType": "service",
+			"svcType": "java",
+			"package": "WmTN",
+			"version": "7.1",
+			"comment": "Logging data for activations is deprecated, along with input parameters ACTIVATION_DAYS_TO_RETAIN, ACTIVATION_ARCHIVE_ACTION and ACTIVATION_STATUS_CRITERIA."
+		},
 		{
 			"nodeName": "pub.xml:xmlStringToXMLNode",
 			"nodeType": "service",
@@ -1559,22 +1575,6 @@
 			"package": "WmTN",
 			"version": "6.5",
 			"comment": "Fields Certificate, CACertificate and PrivateKey are deprecated, Use services in wm.tn.security to retrieve."
-		},
-		{
-			"nodeName": "wm.tn.delivery:deliver",
-			"nodeType": "service",
-			"svcType": "java",
-			"package": "WmTN",
-			"version": "7.1",
-			"comment": "Output parameter deliveryID is deprecated. Use taskId instead."
-		},
-		{
-			"nodeName": "pub.monitor.archive:setOperationParameters",
-			"nodeType": "service",
-			"svcType": "java",
-			"package": "WmTN",
-			"version": "7.1",
-			"comment": "Logging data for activations is deprecated, along with input parameters ACTIVATION_DAYS_TO_RETAIN, ACTIVATION_ARCHIVE_ACTION and ACTIVATION_STATUS_CRITERIA."
 		},
 		{
 			"nodeName": "VAN.VANConnectivity:getFromVAN",
